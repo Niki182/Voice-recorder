@@ -1,0 +1,70 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    background-color: rgb(5, 5, 92);
+}
+
+h1 {
+    font-style: italic;
+    font-size: 31px;
+    color: rgb(0, 89, 166);
+    text-shadow: 0 2px rgb(0, 0, 0);
+}
+
+h5 {
+    font-style: italic;
+    font-size: 15px;
+    color: rgb(12, 0, 248);
+    text-shadow: 0 2px rgb(0, 16, 72);
+}
+
+.website-content {
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 15px 14px rgba(0, 0, 0, 0.499);
+    background-color: royalblue;
+    background: linear-gradient(180deg, #ffffff -30%, royalblue, rgb(17, 41, 114));
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    color: white;
+}
+
+#start-btn {
+    background: linear-gradient(180deg, #ffffff -30%, green, rgb(0, 62, 0));
+}
+
+#stop-btn {
+    background: linear-gradient(180deg, #ffffff -30%, red, rgb(55, 0, 0));
+}
+
+button:disabled {
+    background-color: rgb(92, 92, 92);
+    cursor: not-allowed;
+}
+
+.download-link a {
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    display: none;
+}
+
+.timer {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 20px;
+}
